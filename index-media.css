@@ -1,0 +1,217 @@
+@media screen and (max-width: 500px) {
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Sofia');
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body{
+        
+        overflow-x: hidden;
+        
+    }
+    
+    header{
+        position: absolute;   
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 100;
+        margin-top: 15px;
+    }
+    
+    .logo{
+        font-size: 20px;
+        color: #ffffff;
+        margin-right: 0px;
+        pointer-events: none;
+    }
+   
+    
+    .navigation a{
+        text-decoration: none;
+        color: #ffffff;
+        padding: 3px 8px;
+        border-radius: 20px;
+        margin: 0px;
+        font-weight: 100;
+        font-size: 10px;
+        
+    }
+    
+
+    
+    .parallax{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: 25vh;
+        overflow-y: hidden;
+    }
+    
+    .parallax::-webkit-scrollbar{
+        display: none;
+    }
+    
+    #text{
+        position: absolute;
+        font-size: 20px;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, .9);
+    }
+    
+    
+    /* ========================title=========================== */
+.card-main{
+    background-color: #359382d7;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.cards{
+    height: 75%;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+flex-direction: column;
+}
+
+.cards-sub{
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+}
+
+.title{
+font-size: 20px;
+font-family: Sofia;
+height: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+/* =========================================SECOND BODY=========================== */
+.second-body{
+    background-color: #359381;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.second-body-cards{
+    height: 30%;
+    width: 90%;
+    background-color: #0b3c33;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.s-b-head{
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.s-b-para{
+    color: #fff;
+    font-size: 10px;
+}
+
+
+/* ==============================3rd body============================== */
+.third-body{
+    background-color: #359382d7;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.third-body-btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #359381;
+    font-weight: bold;
+    border: 0px;
+}
+
+.third-body-btn:hover{
+   background-color: #0b3c33;
+   color: white;
+}
+
+/* ====================article======================== */
+
+
+.article-sub{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+/* =========================footer=============================== */
+.footer-main{
+    background-color: #0b3c33;
+    height: 80px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    }
+    
+    .footer{
+        width: 95%;
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        font-weight: bold;
+        
+        
+    }
+    
+    .footer a{
+        text-decoration: none;
+        color: #fff;
+        font-size: small;
+    }
+    
+    .footer li{
+        list-style-type: none;
+        font-size: 8px;
+    }
+    
+    .footer li:hover{
+        color: #359381;
+    }
+    
+
+}

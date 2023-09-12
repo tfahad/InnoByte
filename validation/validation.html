@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="https://icongr.am/simple/affinitydesigner.svg?size=95&color=ffffff&colored=false"/>
+    <title>InnoByte | Sign-up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload stylesheet" href="validation-media.css">
+  </head>
+  <body>
+
+    <div class="nav">
+      <h2 class="logo">InnoByte</h2>
+      <div class="navigation">
+          <!-- class="active" -->
+          <a href="../index.html" >Home</a>
+          <a href="../service.html" >Service</a>
+          <a href="../about.html">About</a>
+          <a href="validation/validation.html" class="active">Sign up</a>
+      </div>
+  </div>
+
+
+
+  <div class="form">
+    <div class="form-section">
+     <input type="text" id="name"  placeholder="Name" autocomplete="off"/>
+      <span id="span-1">Name must be filled!</span><span id="span-1a">Invalid Name!</span>
+
+     <input type="text" id="form-email"  placeholder="Email" autocomplete="off"/>
+     <span id="span-2">E-mail must be filled!</span> <span id="span-2a">Invalid Email!</span>
+
+     <input type="password" id="form-pwd"  placeholder="Password" autocomplete="off" />
+     <span id="span-3">Password must be filled!</span><span id="span-3a">Invalid Password!</span>
+
+      <button type="submit"  onclick="nameCheck()">Sign up</button>
+    </div>
+  </div>
+
+
+
+
+  <!-- =============================================================================================== -->
+  <footer class="footer-main">
+    <ol class="footer">
+        <a href="#"><li>InnoByte © 2023</li></a>
+        <a href="https://twitter.com/i/flow/login"><li>TWITTER</li></a>
+        <a href="https://www.instagram.com/accounts/login/"><li>INSTAGRAM</li></a>
+        <a href="https://www.facebook.com/login/"><li>FACEBOOK</li></a>
+        <a href="https://www.youtube.com"><li>YOUTUBE</li></a>
+        <a href="https://identity.flickr.com/sign-up"><li>FLICKR</li></a>
+    </ol>
+  </footer>
+    
+    <script src="validate.js"></script>
+  </body>
+</html>
