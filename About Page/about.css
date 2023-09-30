@@ -155,7 +155,7 @@ body::-webkit-scrollbar{
 
  /* =========================footer=============================== */
 .footer-main{
-    background-color: #0b3c3376;
+    background-color: #0b3c33;
     height: 80px;
     display: flex;
     justify-content:space-evenly;
@@ -186,4 +186,15 @@ body::-webkit-scrollbar{
         color: black;
     }
     
-    
+      /* ============================third body========================== */
+  .third-body{
+    background-color: #ffffff;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #t-b-img{
+    filter: grayscale(100%);
+  }
